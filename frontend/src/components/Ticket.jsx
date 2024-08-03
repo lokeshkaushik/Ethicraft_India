@@ -1,4 +1,4 @@
-import "./Ticket.css";
+import "../assets/styles/Ticket.css";
 import TicketDetailImg from "./ticket-details.jpg";
 
 function Ticket() {
