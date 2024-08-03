@@ -1,0 +1,103 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .container {
+    padding: 0px;
+  }
+  
+  .ticket-details-page {
+    margin: 100px 0px;
+  }
+  
+  .ticket-details-page img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .ticket-details-page .right-content {
+    margin-left: 15px;
+  }
+  
+  .ticket-details-page .right-content h4 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #2a2a2a;
+  }
+  
+  .ticket-details-page .right-content span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #656c74;
+    display: inline-block;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .ticket-details-page .right-content ul {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .ticket-details-page .right-content ul li {
+    font-size: 14px;
+    color: #2a2a2a;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+  
+  .ticket-details-page .right-content ul li i {
+    color: #7c838b;
+    margin-right: 10px;
+    width: 15px;
+    height: 25px;
+    float: left;
+  }
+  
+  .ticket-details-page .right-content .quantity-content {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .ticket-details-page .right-content .quantity-content .left-content {
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .ticket-details-page .right-content .quantity-content .right-content {
+    text-align: right;
+  }
+  
+  .ticket-details-page .right-content .quantity-content .left-content h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2a2a2a;
+  }
+  
+  .ticket-details-page .right-content .total h4 {
+    float: left;
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  
+  .ticket-details-page .right-content .total .main-dark-button {
+    text-align: right;
+  }
+  .ticket-details-page .right-content .warn p {
+    margin-top: 45px;
+  }
+
+  
