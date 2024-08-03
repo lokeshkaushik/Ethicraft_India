@@ -1,3 +1,6 @@
+  /* -----button css */
+  @import url("https://fonts.googleapis.com/css?family=Raleway");
+  
 /* Extra */
 body {
     background: #ccc;
@@ -154,8 +157,6 @@ body {
     display: block;
   }
 
-  /* -----button css */
-  @import url("https://fonts.googleapis.com/css?family=Raleway");
 
   :root {
     --glow-color: hsl(186 100% 69%);
