@@ -1,13 +1,6 @@
   /* -----button css */
   @import url("https://fonts.googleapis.com/css?family=Raleway");
   
-/* Extra */
-body {
-    background: #ccc;
-    color: #fefefe;
-    font-size: 14px;
-    margin: 0;
-}
   
   .logo {
     max-width: 200px;
@@ -19,12 +12,18 @@ body {
   
   .navbar {
     align-items: center;
-    background:black;
+    background:var(--white);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: row;
     font-family: sans-serif;
     padding: 10px 50px;
+    border-radius: 8px;
+    margin:20px 10px 0px 10px;
+  }
+
+  .navbar.scrolled {
+    margin: 0;
   }
   
   .push-left {
@@ -110,7 +109,7 @@ body {
     }
   }
   .nav-menu .menu-item a {
-    color: #f7f2f2;
+    color: var(--dark);
     display: block;
     line-height: 30px;
     margin: 0px 10px;
@@ -118,7 +117,7 @@ body {
     text-transform: uppercase;
   }
   .nav-menu .menu-item a:hover {
-    color: #f1e2e2;
+    color: var(--primary);
     /* text-decoration: underline; */
   }
   @media screen and (max-width: 768px) {

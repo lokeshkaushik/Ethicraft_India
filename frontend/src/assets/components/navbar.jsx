@@ -6,6 +6,17 @@ function Navbar() {
         document.body.classList.toggle('menu-active', menuActive);
     }, [menuActive]);
 
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            var nav = document.querySelector('.navbar');
+            if (window.scrollY > 10) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    }, []);
+
     const handleMenuToggle = () => {
         setMenuActive(!menuActive);
     };
